@@ -1,0 +1,56 @@
+body {
+	background-color: beige;
+	text-align: center;
+}
+
+/*div {
+	height: 50px;
+	width: 24%;
+	display: inline-block;
+}*/
+
+.container {
+	display: flex;
+	justify-content: space-around;
+}
+
+.box {
+	height: 150px;
+	width: 150px;
+}
+
+/*-----------------------------------------
+TODAS LAS REGLAS A CONTINUACIÓN SON DE BOX
+-------------------------------------------*/
+
+.box-blue {
+	background-color: #3874B7;
+	 font-family: 'ABeeZee';
+	 font-size: 22px;
+}
+
+.box-grey {
+	background-color: grey;
+	font-family: 'Berkshire Swash';
+	font-size: 22px;
+}
+
+.box-violet {
+	background-color: violet;
+	 font-family: 'Bangers';
+	 font-size: 22px;
+}
+
+.box-skyblue {
+	background-color: skyblue;
+	 font-family: 'Bebas Neue';
+	 font-size: 22px;
+}
+
+/*-----------
+    FIN
+------------*/
+
+img {
+	width: 65%;
+}
